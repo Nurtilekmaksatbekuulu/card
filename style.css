@@ -1,0 +1,87 @@
+.card{
+    /* border: 2px solid ; */
+    height: 400px;
+    border-radius: 5px;
+    width: 350px;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px 0 rgb(31, 31, 30);
+}
+.blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: dimgray;
+    cursor: pointer;
+}
+.card p{
+    width: 250px;
+    height: 300px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.card p::first-letter{
+    color: red;
+}
+.card img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top:15px;
+    border-bottom: 2px solid rgb(173, 24, 24);
+
+}
+.card-icons1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 0 30px 0 0; */
+}
+.card-ins {
+    color: rgb(18, 18, 18);
+   
+    font-size: 30px;
+    /* box-shadow: 0 0 10px 5px rgb(173, 24, 24); */
+}
+.card-githab{
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    transition: 2s;
+    /* transform: rotate(2s); */
+    margin: 0 5px 10px 15px ;
+}
+.card-linkedin{
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+    margin: 0 5px 0 0 ; 
+}
+.card-twiter{
+    color: rgb(22, 21, 20);
+    font-size: 30px;
+    margin: 0 5px 0 5px;
+}
+input{
+    /* border: 2px solid red; */
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(154, 158, 161);
+    margin: 0 0 0 15px;
+    border: none;
+
+}
+.input:hover{
+    background-color: white;
+}
+input::placeholder{
+    color: rgb(31, 31, 30);
+    font-size: 16px; 
+    
+    
+}
